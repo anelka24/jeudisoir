@@ -1,0 +1,18 @@
+setting up Aliases on windows using the .gitconfig file
+to set up aliases, you can use the git config command or directory edit the .gitconfig fils.
+Add the bolow git aliases to the local computer following the below syntax:
+      git config --global alias.[shortcut] [command]
+      example adding the files: git add = git config --global alias.a add
+
+add: git a
+branch: git br      
+checkout: git co
+commit: ci
+clone: cl 
+diff: git d 
+fetch: git f 
+log: git l 
+merge: git m 
+pull: git pl 
+push: git ps 
+rebase: git rb 
